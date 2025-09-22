@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/fevicon-01.png"
+    />
+    <title>Faris | Home</title>
+  </head>
+  <body>
+    <header>
+      <div id="media-header">
+        <span id="media-header-line"></span>
+        <div id="media-icons">
+          <a href="#"><img src="icons/discord.svg" alt="" /></a>
+          <a href="https://github.com/farixdev" target="_blank"
+            ><img src="icons/github.svg" alt=""
+          /></a>
+          <a href="mailto:onlyfarix@gmail.com"
+            ><img src="icons/email.svg" alt=""
+          /></a>
+        </div>
+      </div>
+
+      <div id="header-inner">
+        <a href="index.html" id="logo">
+          <img src="icons/logo-header-01.png" alt="logo" />
+          <span class="logo-header">Faris</span>
+        </a>
+
+        <div id="header-links">
+          <a href="index.html" class="active"><span id="hash">#</span>home</a>
+          <a href="project.html"><span id="hash">#</span>projects</a>
+          <a href="about-me.html"><span id="hash">#</span>about-me</a>
+
+          
+        </div>
+      </div>
+    </header>
+
+    <div class="content container">
+      <section class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Faris is a <span>web designer</span> and
+            <span>front-end</span> developer
+          </h1>
+          <div class="hero__description">
+            He crafts responsive websites where technologies meet creativity
+          </div>
+          <a
+            class="button button__primary"
+            onclick="location.href='#contacts'"
+            href="#contacts"
+            >Contact ME =&gt;</a
+          >
+        </div>
+        <div class="hero__illustrations">
+          <img src="icons/logo-outline.svg" alt="" class="hero__logo" />
+          <img src="icons/hero-3.png" alt="Elias" class="hero__image" />
+          <div class="hero__status">Open for new opportunities</div>
+
+          <svg width="100%" class="dots" viewBox="0 0 104 104">
+            <circle cx="4" cy="4" r="4"></circle>
+            <circle cx="4" cy="28" r="4"></circle>
+            <circle cx="4" cy="52" r="4"></circle>
+            <circle cx="4" cy="76" r="4"></circle>
+            <circle cx="4" cy="100" r="4"></circle>
+            <circle cx="28" cy="4" r="4"></circle>
+            <circle cx="28" cy="28" r="4"></circle>
+            <circle cx="28" cy="52" r="4"></circle>
+            <circle cx="28" cy="76" r="4"></circle>
+            <circle cx="28" cy="100" r="4"></circle>
+            <circle cx="52" cy="4" r="4"></circle>
+            <circle cx="52" cy="28" r="4"></circle>
+            <circle cx="52" cy="52" r="4"></circle>
+            <circle cx="52" cy="76" r="4"></circle>
+            <circle cx="52" cy="100" r="4"></circle>
+            <circle cx="76" cy="4" r="4"></circle>
+            <circle cx="76" cy="28" r="4"></circle>
+            <circle cx="76" cy="52" r="4"></circle>
+            <circle cx="76" cy="76" r="4"></circle>
+            <circle cx="76" cy="100" r="4"></circle>
+            <circle cx="100" cy="4" r="4"></circle>
+            <circle cx="100" cy="28" r="4"></circle>
+            <circle cx="100" cy="52" r="4"></circle>
+            <circle cx="100" cy="76" r="4"></circle>
+            <circle cx="100" cy="100" r="4"></circle>
+          </svg>
+        </div>
+      </section>
+
+      <figure class="quote">
+        <blockquote class="quote__text">
+          My portfolio looks better than my life
+        </blockquote>
+      </figure>
+
+      <section class="projects">
+        <div class="projects__header">
+          <h2 class="h2">projects</h2>
+          <a class="projects__link" href="project.html">View all ~~&gt;</a>
+        </div>
+
+        <div class="project-list">
+          <div class="project">
+            <img src="icons/deplos.png" alt="Deplos" class="project__image" />
+
+            <ul class="project__techs">
+              <li class="project__tech">HTML</li>
+              <li class="project__tech">CSS</li>
+              <li class="project__tech">JavaScript</li>
+            </ul>
+
+            <div class="project__content">
+              <div class="project__name">Calcuator</div>
+              <div class="project__description">Web Based Calculator</div>
+              <div class="project__links">
+                <a href="" class="button">Figma =&gt;</a
+                ><a href="https://deplos.github.io" class="button">Live =&gt;</a
+                ><a href="" class="button">Github =&gt;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="icons/E-book.png"
+              alt="E-book Reader"
+              class="project__image"
+            />
+
+            <ul class="project__techs">
+              <li class="project__tech">C++</li>
+            </ul>
+
+            <div class="project__content">
+              <div class="project__name">E-book Reader</div>
+              <div class="project__description">Elctronic book reader</div>
+              <div class="project__links">
+                <a href="#" class="button">Live =&gt;</a
+                ><a href="#" class="button">Github =&gt;</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project">
+            <img
+              src="icons/mapleads.png"
+              class="project__image"
+            />
+
+            <ul class="project__techs">
+              <li class="project__tech">Python</li>
+              <li class="project__tech">PyQt5</li>
+            </ul>
+
+            <div class="project__content">
+              <div class="project__name">MapLeads</div>
+              <div class="project__description">
+                A desktop application to extract leads from Google Maps
+              </div>
+              <div class="project__links">
+                <a href="#" class="button">Github =&gt;</a
+                ><a href="#" class="button">Live =&gt;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <sections class="skills">
+        <h2 class="h2">skills</h2>
+        <div class="skills__content">
+          <div class="skills__illustrations illustrations">
+            <img
+              src="icons/logo-outline.svg"
+              alt=""
+              class="illustrations__logo"
+            />
+
+            <svg width="100%" class="dots" viewBox="0 0 80 80">
+              <circle cx="4" cy="4" r="4"></circle>
+              <circle cx="4" cy="28" r="4"></circle>
+              <circle cx="4" cy="52" r="4"></circle>
+              <circle cx="4" cy="76" r="4"></circle>
+              <circle cx="28" cy="4" r="4"></circle>
+              <circle cx="28" cy="28" r="4"></circle>
+              <circle cx="28" cy="52" r="4"></circle>
+              <circle cx="28" cy="76" r="4"></circle>
+              <circle cx="52" cy="4" r="4"></circle>
+              <circle cx="52" cy="28" r="4"></circle>
+              <circle cx="52" cy="52" r="4"></circle>
+              <circle cx="52" cy="76" r="4"></circle>
+              <circle cx="76" cy="4" r="4"></circle>
+              <circle cx="76" cy="28" r="4"></circle>
+              <circle cx="76" cy="52" r="4"></circle>
+              <circle cx="76" cy="76" r="4"></circle>
+            </svg>
+
+            <svg width="100%" class="dots" viewBox="0 0 128 128">
+              <circle cx="4" cy="4" r="4"></circle>
+              <circle cx="4" cy="28" r="4"></circle>
+              <circle cx="4" cy="52" r="4"></circle>
+              <circle cx="4" cy="76" r="4"></circle>
+              <circle cx="4" cy="100" r="4"></circle>
+              <circle cx="4" cy="124" r="4"></circle>
+              <circle cx="28" cy="4" r="4"></circle>
+              <circle cx="28" cy="28" r="4"></circle>
+              <circle cx="28" cy="52" r="4"></circle>
+              <circle cx="28" cy="76" r="4"></circle>
+              <circle cx="28" cy="100" r="4"></circle>
+              <circle cx="28" cy="124" r="4"></circle>
+              <circle cx="52" cy="4" r="4"></circle>
+              <circle cx="52" cy="28" r="4"></circle>
+              <circle cx="52" cy="52" r="4"></circle>
+              <circle cx="52" cy="76" r="4"></circle>
+              <circle cx="52" cy="100" r="4"></circle>
+              <circle cx="52" cy="124" r="4"></circle>
+              <circle cx="76" cy="4" r="4"></circle>
+              <circle cx="76" cy="28" r="4"></circle>
+              <circle cx="76" cy="52" r="4"></circle>
+              <circle cx="76" cy="76" r="4"></circle>
+              <circle cx="76" cy="100" r="4"></circle>
+              <circle cx="76" cy="124" r="4"></circle>
+              <circle cx="100" cy="4" r="4"></circle>
+              <circle cx="100" cy="28" r="4"></circle>
+              <circle cx="100" cy="52" r="4"></circle>
+              <circle cx="100" cy="76" r="4"></circle>
+              <circle cx="100" cy="100" r="4"></circle>
+              <circle cx="100" cy="124" r="4"></circle>
+              <circle cx="124" cy="4" r="4"></circle>
+              <circle cx="124" cy="28" r="4"></circle>
+              <circle cx="124" cy="52" r="4"></circle>
+              <circle cx="124" cy="76" r="4"></circle>
+              <circle cx="124" cy="100" r="4"></circle>
+              <circle cx="124" cy="124" r="4"></circle>
+            </svg>
+          </div>
+          <div class="skills__list">
+            <div class="skill-block">
+              <div class="skill-block__name">Languages</div>
+              <ul class="skill-block__list">
+                <li class="skill-block__skill">JavaScript</li>
+                <li class="skill-block__skill">C++</li>
+                <li class="skill-block__skill">Python</li>
+              </ul>
+            </div>
+
+            <div class="skill-block">
+              <div class="skill-block__name">Additional</div>
+              <ul class="skill-block__list">
+                <li class="skill-block__skill">Wordpress</li>
+                <li class="skill-block__skill">Graphic Designing</li>
+              </ul>
+            </div>
+
+            <div class="skill-block">
+              <div class="skill-block__name">Other</div>
+              <ul class="skill-block__list">
+                <li class="skill-block__skill">HTML</li>
+                <li class="skill-block__skill">CSS</li>
+                <li class="skill-block__skill">Tailwind</li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+              </ul>
+            </div>
+
+            <div class="skill-block">
+              <div class="skill-block__name">Frameworks</div>
+              <ul class="skill-block__list">
+                <li class="skill-block__skill">React</li>
+                <li class="skill-block__skill">Next</li>
+                <li class="skill-block__skill">PyQt5</li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+                <li class="skill-block__skill"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </sections>
+
+      <section class="about">
+        <div class="about__content">
+          <h2 class="h2">about</h2>
+          <div class="about__text">
+            <p class="about__description">
+              I’m a self-taught developer based in Lahore, Pakistan. I
+              specialize in building both desktop and web applications, creating
+              responsive and efficient solutions that blend functionality with
+              simplicity.
+            </p>
+            <p class="about__description">
+              For the past two years, coding has been more than just a skill for
+              me—it’s been a passion. I primarily work with Python, using it to
+              develop practical tools and modern applications. Along the way,
+              I’ve helped different clients bring their ideas to life. I’m
+              always eager to explore new technologies and expand my knowledge
+              to deliver better experiences.
+            </p>
+          </div>
+
+          <a href="about-me.html" class="button">View all -&gt;</a>
+        </div>
+        <img src="icons/image_hoodie.png" alt="" class="about__image" />
+      </section>
+
+      <sections class="contacts" id="contacts">
+        <h2 class="h2">contacts</h2>
+        <div class="contacts__content">
+          <p class="contacts__description">
+            I’m interested in freelance opportunities. However, if you have
+            other request or question, don’t hesitate to contact me
+          </p>
+          <div class="contacts__media">
+            <h3 class="contacts__title">Message me here</h3>
+            <div class="contacts__list">
+              <a class="contact" href="#">
+                <img
+                  src="icons/instagram-01-01.svg"
+                  style="width: 33px"
+                  alt=""
+                />
+                <div class="contact__name">faris.dev.</div>
+              </a>
+
+              <a class="contact" href="mailto:onlyfarix@gmail.com">
+                <img src="icons/email.svg" alt="" />
+                <div class="contact__name">onlyfarix@gmail.com</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </sections>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__info">
+            <div class="footer__header">
+              <div class="logo">
+                <img
+                  src="icons/logo-header-01.png"
+                  alt="logo"
+                  class="logo__img"
+                />
+                <div class="logo__name">Faris</div>
+              </div>
+              <a class="footer__email" href="mailto:elias.devis@protonmail.com"
+                >onlyfarix@gmail.com</a
+              >
+            </div>
+
+            <p class="footer__description">
+              Web designer and front-end developer based in Pakistan
+            </p>
+          </div>
+          <div class="footer__media">
+            <div class="footer__title">Media</div>
+            <div class="footer__list">
+              <a href="#" class="media">
+                <img src="icons/discord.svg" alt="figma" class="media__icon" />
+              </a>
+              <a href="https://github.com/farixdev" class="media">
+                <img src="icons/email.svg" alt="github" class="media__icon" />
+              </a>
+              <a href="https://github.com/farixdev" class="media">
+                <img src="icons/github.svg" alt="discord" class="media__icon" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">© Copyright 2025. Made by Faris</div>
+      </div>
+    </footer>
+  </body>
+</html>
